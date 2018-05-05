@@ -23,6 +23,6 @@
         android:padding="16dp"
         android:textColor="@android:color/black"
         android:textSize="14sp"
-        android:text="This is where joke will be" />
+        tools:text="This is where joke will be" />
 
 </LinearLayout>
