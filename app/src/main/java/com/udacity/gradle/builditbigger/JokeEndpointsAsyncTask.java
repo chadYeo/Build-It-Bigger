@@ -54,7 +54,7 @@ public class JokeEndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Voi
     @Override
     protected void onPostExecute(String result) {
 
-        Intent displayJokeIntent = new Intent(context, DisplayJokeActivity.class);
+        Intent displayJokeIntent = new Intent(context.getApplicationContext(), DisplayJokeActivity.class);
         displayJokeIntent.putExtra("jokeResult", result);
         context.startActivity(displayJokeIntent);
     }
