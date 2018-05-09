@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class JavaJokeLib {
+public final class JavaJokeLib {
     private List<String> jokes;
     private Random random;
 
